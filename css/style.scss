@@ -972,12 +972,13 @@ footer {
 
         .banner-text {
             width: 100%;
-            margin: 50px 0;
+            margin-bottom: 50px;
+            margin-top: 10px;
             top: 0;
             left: 0;
 
             h1 {
-                font-size: 5rem;
+                font-size: 4rem;
                 padding: 0 10%;
                 line-height: normal;
                 margin: 25px 0;
@@ -985,6 +986,7 @@ footer {
         }
 
         .banner-img {
+            width: 80%;
             img {
                 width: 100%;
             }
@@ -1003,7 +1005,8 @@ footer {
 
         .text {
             width: 100%;
-            margin: 50px 0;
+            margin-bottom: 50px;
+            margin-top:10px ;
             top: 0;
             left: 0;
 
@@ -1015,13 +1018,22 @@ footer {
         }
 
         .banner-img {
+            width: 80%;
             img {
                 width: 100%;
             }
         }
     }
+    .products{
+        h1{
+            font-size: 3rem;
+        }
+    }
 
     .most-populer {
+        h1{
+            font-size: 3rem;
+        }
         .populer-section {
             justify-content: space-around;
         }
@@ -1032,6 +1044,9 @@ footer {
     }
 
     .tranding-products {
+        h1{
+            font-size: 3rem;
+        }
         .first {
             justify-content: space-around;
         }
@@ -1042,11 +1057,17 @@ footer {
     }
 
     .journal-section {
+        h1{
+            font-size: 3rem;
+        }
         .journal {
             justify-content: space-around;
         }
     }
     .followers-section{
+        h1{
+            font-size: 3rem;
+        }
         .wrapper{
             justify-content: space-around;
         }

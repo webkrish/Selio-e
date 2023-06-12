@@ -789,15 +789,19 @@ footer p span {
   }
   .banner .banner-text {
     width: 100%;
-    margin: 50px 0;
+    margin-bottom: 50px;
+    margin-top: 10px;
     top: 0;
     left: 0;
   }
   .banner .banner-text h1 {
-    font-size: 5rem;
+    font-size: 4rem;
     padding: 0 10%;
     line-height: normal;
     margin: 25px 0;
+  }
+  .banner .banner-img {
+    width: 80%;
   }
   .banner .banner-img img {
     width: 100%;
@@ -811,7 +815,8 @@ footer p span {
   }
   .second-banner .text {
     width: 100%;
-    margin: 50px 0;
+    margin-bottom: 50px;
+    margin-top: 10px;
     top: 0;
     left: 0;
   }
@@ -820,8 +825,17 @@ footer p span {
     line-height: normal;
     margin: 25px 0;
   }
+  .second-banner .banner-img {
+    width: 80%;
+  }
   .second-banner .banner-img img {
     width: 100%;
+  }
+  .products h1 {
+    font-size: 3rem;
+  }
+  .most-populer h1 {
+    font-size: 3rem;
   }
   .most-populer .populer-section {
     justify-content: space-around;
@@ -829,14 +843,23 @@ footer p span {
   .most-populer .about {
     justify-content: space-around;
   }
+  .tranding-products h1 {
+    font-size: 3rem;
+  }
   .tranding-products .first {
     justify-content: space-around;
   }
   .tranding-products .second {
     justify-content: space-around;
   }
+  .journal-section h1 {
+    font-size: 3rem;
+  }
   .journal-section .journal {
     justify-content: space-around;
+  }
+  .followers-section h1 {
+    font-size: 3rem;
   }
   .followers-section .wrapper {
     justify-content: space-around;
@@ -884,7 +907,7 @@ footer p span {
   }
   .followers-section .wrapper .card {
     width: 45%;
-    padding: 20px 0;
+    margin: 20px 0;
   }
   footer .four-section .list {
     width: 65%;
