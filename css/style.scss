@@ -724,7 +724,7 @@ footer {
         border-bottom: 1px solid #b4b4b44d;
 
         .list {
-            width: 33%;
+            width: 24%;
 
             h1 {
                 text-align: left;
@@ -1082,9 +1082,7 @@ footer {
     }
 }
 @media only screen and (max-width:400px) {
-    *{
-        // border: 1px solid red;
-    }
+   
     nav{
         .icon{
             button{
@@ -1158,6 +1156,16 @@ footer {
             .list{
                 width: 65%;
                 padding: 20px 0;
+                .app{
+                    .android{
+                        width: 55%;
+                        margin: 5px;
+                    }
+                    .apple{
+                        width: 55%;
+                        margin: 5px;
+                    }
+                }
             }
         }
     }

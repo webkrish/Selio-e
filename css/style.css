@@ -592,7 +592,7 @@ footer .four-section {
   border-bottom: 1px solid rgba(180, 180, 180, 0.3019607843);
 }
 footer .four-section .list {
-  width: 33%;
+  width: 24%;
 }
 footer .four-section .list h1 {
   text-align: left;
@@ -912,5 +912,13 @@ footer p span {
   footer .four-section .list {
     width: 65%;
     padding: 20px 0;
+  }
+  footer .four-section .list .app .android {
+    width: 55%;
+    margin: 5px;
+  }
+  footer .four-section .list .app .apple {
+    width: 55%;
+    margin: 5px;
   }
 }/*# sourceMappingURL=style.css.map */
