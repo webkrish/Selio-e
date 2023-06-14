@@ -720,7 +720,7 @@ footer p span {
   color: #ff5353;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1060px) {
   nav h1 {
     padding: 20px;
   }
@@ -869,6 +869,22 @@ footer p span {
   }
   footer .four-section .list {
     width: 30%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .most-populer .about .small-card {
+    width: 45%;
+    margin: 25px 0;
+  }
+  footer .four-section .list {
+    width: 45%;
+  }
+  footer .four-section .list .app .android {
+    width: 60%;
+    margin: 10px 0;
+  }
+  footer .four-section .list .app .apple {
+    width: 60%;
   }
 }
 @media only screen and (max-width: 400px) {

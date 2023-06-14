@@ -881,7 +881,7 @@ footer {
 }
 
 
-@media only screen and (max-width:800px) {
+@media only screen and (max-width:1060px) {
     nav {
         h1 {
             padding: 20px;
@@ -1077,6 +1077,32 @@ footer {
             justify-content: space-around;
             .list{
                 width: 30%;
+            }
+        }
+    }
+}
+@media only screen and (max-width:500px){
+    .most-populer{
+        .about{
+            .small-card{
+                width: 45%;
+    margin: 25px 0;
+            }
+        }
+    }
+    footer{
+        .four-section{
+            .list{
+                width: 45%;
+                .app{
+                    .android{
+                        width: 60%;
+                        margin: 10px 0;
+                    }
+                    .apple{
+                        width: 60%;
+                    }
+                }
             }
         }
     }
