@@ -83,6 +83,7 @@ nav ul li a:hover {
   display: flex;
   flex-wrap: wrap;
   overflow: hidden;
+  align-items: center;
 }
 .banner .banner-text {
   width: 50%;
